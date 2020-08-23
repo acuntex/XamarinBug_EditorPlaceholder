@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBugEditorPlaceholder.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true">
+    <StackLayout HorizontalOptions="CenterAndExpand" Spacing="20" Padding="20">
+        <Label Text="This demonstrates that Placeholder text in an editor is way to high on iOS."/>
+        <Editor Placeholder="This is not how it should look"
+                HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="This is how it should look"
+               HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+</ContentPage>
